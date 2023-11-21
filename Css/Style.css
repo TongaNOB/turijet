@@ -74,15 +74,15 @@ html{
     justify-content:center;
     margin-top: 25px;
     margin-bottom: 25px;
+    transition: 1s;
 }
 
-.grid-container div{
-    transition: 1s;
-    cursor: pointer;
+.grid-container div img{
+  border-radius: 10px
 } 
 
 .grid-container div:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     }
 
 
@@ -117,6 +117,7 @@ h1{
 
 .grid-container2 div img{
  width: 80%;
+ border-radius: 5px;
  box-shadow: 0 0 2rem rgb(0, 0, 0);
 }
 
