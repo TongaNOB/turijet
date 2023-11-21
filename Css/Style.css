@@ -98,30 +98,30 @@ h1{
 
 
 .grid-container2{
-    background-color:  rgb(212, 210, 210);
+    background-color:  rgb(240, 238, 238);
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: center;
-    margin-bottom: 25px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    gap: 5rem;   
 }
 
 
 .grid-container2 div{
     display: flex;
     justify-content:center;
-}
+    transition: 1s;
+    
+  }
 
 .grid-container2 div img{
- width: 80%;   
- padding: 20px;
+ width: 80%;
+ box-shadow: 0 0 2rem rgb(0, 0, 0);
 }
 
-.grid-container2 div{
-    transition: 1s;
-} 
-
 .grid-container2 div:hover{
-    transform: scale(1.1);
+    transform: scale(1.02);
     }
 
 
@@ -142,20 +142,23 @@ h2{
 }
 
 .card-title{
-    background-color: rgb(212, 210, 210);
+    background-color: rgba(212, 210, 210,0.5);
     color:  rgb(228, 0, 70);
     font-size:x-large;
+    text-shadow: 2px 5px 4px rgb(0, 0, 0);
 }
 
 h5{
-    text-align: center;
-    color:  rgb(228, 0, 70);
-    font-size:xx-large; 
+text-align: center;
+color:  rgb(228, 0, 70);
+font-size: calc(1em + 1vw);
+line-height: 1em;
+padding: 0.5em;
+margin: 1em;
 }
 
-
 .contpass{
-    padding: 20px;
+    padding: 2rem;
 }
 
 .card{
