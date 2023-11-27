@@ -48,7 +48,9 @@ html{
 .botone:hover{
     color: rgb(228, 0, 70);
 }
-
+.bot_pag_act{
+  color: rgb(228,0,70);
+}
 
 .navpadre{
     position: fixed;
